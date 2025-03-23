@@ -9,7 +9,7 @@ export default function Footer(props) {
     <div className="footer-div">
       <Fade>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          Knowledge knows no limits nor to the passion or to the age.
+          Knowledge knows no limits neither to the passion nor to the age.
           {/* Made with <span role="img">❤️</span> by {greeting.title} */}
         </p>
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}

@@ -57,17 +57,17 @@ const socialMediaLinks = [
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   // {
-  //   name: "X-Twitter",
-  //   link: "https://twitter.com/ashutosh_1919",
-  //   fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
+  //   name: "Medium",
+  //   link: "https://medium.com/@bejawadasaimahendra",
+  //   fontAwesomeIcon: "fa-x-medium", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
   //   backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   // },
-  // {
-  //   name: "Facebook",
-  //   link: "https://www.facebook.com/laymanbrother.19/",
-  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  // },
+  {
+    name: "Medium",
+    link: "https://medium.com/@bejawadasaimahendra",
+    fontAwesomeIcon: "fa-medium", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=facebook
+  },
   {
     name: "Instagram",
     link: "https://www.instagram.com/sai_mahendra_bejawada/",
@@ -350,14 +350,14 @@ const competitiveSites = {
       },
       profileLink: "https://www.codechef.com/users/sai_30548",
     },
-    // {
-    //   siteName: "Codeforces",
-    //   iconifyClassname: "simple-icons:codeforces",
-    //   style: {
-    //     color: "#1F8ACB",
-    //   },
-    //   profileLink: "http://codeforces.com/profile/layman_brother",
-    // },
+    {
+      siteName: "Codepen",
+      iconifyClassname: "simple-icons:codepen",
+      style: {
+        color: "#000000",
+      },
+      profileLink: "https://codepen.io/saimahendra",
+    },
     // {
     //   siteName: "Hackerearth",
     //   iconifyClassname: "simple-icons:hackerearth",
@@ -704,7 +704,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Chimakurthy, Ongole, Andhra Pradesh, India - 523169",
+    subtitle: "Chimakurthy, Ongole, Andhra Pradesh, India - 523226",
     locality: "Chimakurthy",
     country: "India",
     region: "Andhara Pradesh",

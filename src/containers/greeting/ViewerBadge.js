@@ -61,7 +61,7 @@ const ViewerBadge = () => {
 
   return (
     <span style={{ fontSize: '22px' }}>
-      👁 Views: {viewCount}{' '}
+      👁  {viewCount}{' '}
       <button
         onClick={handleLike}
         style={{
@@ -75,7 +75,7 @@ const ViewerBadge = () => {
           fontSize:'22px'
         }}
       >
-          🫰🏻
+          ❤️ 
       </button>
       {likeCount}
     </span>
