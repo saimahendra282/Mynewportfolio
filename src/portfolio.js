@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "I’m a passionate student who is big fan of open-source contributions and loves working on new, unique ideas to bring them to life.",
   resumeLink:
-    "https://drive.google.com/file/d/1Gg9lCb61r2jUUCQwtCyjgnoMQuZ1nOyD/view?usp=sharing",
+    "https://drive.google.com/file/d/1dkSqJUt9uopvKyGJeemvZHSXR_7vDTUf/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   whatsappLink: "https://api.whatsapp.com/send?phone=919676541304",
   githubProfile: "https://github.com/saimahendra282",
