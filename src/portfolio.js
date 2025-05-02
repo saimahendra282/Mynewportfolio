@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "SaiMahendra",
   nickname: "sunny",
   subTitle:
-    "I’m a passionate student who is big fan of open-source contributions and loves working on new, unique ideas to bring them to life.",
+    "Looking for opportunities in cloud computing, full-stack development, and prompt engineering. Good at using cloud Platform, building web apps, and creating AI prompts.",
   resumeLink:
-    "https://drive.google.com/file/d/1dkSqJUt9uopvKyGJeemvZHSXR_7vDTUf/view?usp=sharing",
+    "https://drive.google.com/file/d/1F6EWloVzFUZdjcJQpqmyfxMbjIQVORcv/view?usp=sharing",
   portfolio_repository: "https://github.com/saimahendra282/Mynewportfolio.git",
   whatsappLink: "https://api.whatsapp.com/send?phone=919676541304",
   githubProfile: "https://github.com/saimahendra282",
@@ -288,39 +288,8 @@ const skills = {
           },
         },
       ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "✨ Currently i am learning framer",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Framer",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Canva",
-          fontAwesomeClassname: "simple-icons:canva",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
-  ],
+    }, 
+   ],
 };
 
 // Education Page
