@@ -1,10 +1,22 @@
 import React, { useEffect, useState } from 'react';
-import { supabase } from './supersuper.js'; // Adjust path as needed
+import { supabase } from './supersuper.js';
+
+const setCookie = (name, value, days = 1) => {
+  const expires = new Date(Date.now() + days * 864e5).toUTCString();
+  document.cookie = `${name}=${value}; expires=${expires}; path=/`;
+};
+
+const getCookie = (name) => {
+  return document.cookie
+    .split('; ')
+    .find((row) => row.startsWith(name + '='))
+    ?.split('=')[1];
+};
 
 const ViewerBadge = () => {
   const [viewCount, setViewCount] = useState(0);
   const [likeCount, setLikeCount] = useState(0);
-  const [isLiked, setIsLiked] = useState(false); // To trigger the animation
+  const [isLiked, setIsLiked] = useState(false);
 
   useEffect(() => {
     const updateCounts = async () => {
@@ -19,17 +31,23 @@ const ViewerBadge = () => {
 
         const currentViews = data.count || 0;
         const currentLikes = data.likes || 0;
-        const newViewCount = currentViews + 1;
 
-        const { error: updateError } = await supabase
-          .from('profile_views')
-          .update({ count: newViewCount, updated_at: new Date() })
-          .eq('id', 1);
-
-        if (updateError) throw updateError;
-
-        setViewCount(newViewCount);
+        setViewCount(currentViews);
         setLikeCount(currentLikes);
+
+        // Only increment view if not already viewed
+        if (!getCookie('profile_viewed')) {
+          const newViewCount = currentViews + 1;
+          const { error: updateError } = await supabase
+            .from('profile_views')
+            .update({ count: newViewCount, updated_at: new Date() })
+            .eq('id', 1);
+
+          if (updateError) throw updateError;
+
+          setViewCount(newViewCount);
+          setCookie('profile_viewed', 'true');
+        }
       } catch (error) {
         console.error('Error fetching/updating counts:', error.message);
       }
@@ -39,8 +57,10 @@ const ViewerBadge = () => {
   }, []);
 
   const handleLike = async () => {
+    if (getCookie('profile_liked')) return;
+
     try {
-      setIsLiked(true); // Trigger animation
+      setIsLiked(true);
       const newLikeCount = likeCount + 1;
 
       const { error } = await supabase
@@ -51,9 +71,9 @@ const ViewerBadge = () => {
       if (error) throw error;
 
       setLikeCount(newLikeCount);
+      setCookie('profile_liked', 'true');
 
-      // Reset animation after a short delay
-      setTimeout(() => setIsLiked(false), 300); // Matches transition duration
+      setTimeout(() => setIsLiked(false), 300);
     } catch (error) {
       console.error('Error updating likes:', error.message);
     }
@@ -61,21 +81,24 @@ const ViewerBadge = () => {
 
   return (
     <span style={{ fontSize: '22px' }}>
-      👁  {viewCount}{' '}
+      👁 {viewCount}{' '}
       <button
         onClick={handleLike}
         style={{
           border: 'none',
           background: 'none',
-          cursor: 'pointer',
-          transition: 'transform 0.3s ease', // Smooth transition
-          transform: isLiked ? 'scale(1.2)' : 'scale(1)', // Scale up when clicked
-          display: 'inline', // Keep it inline with text
-          padding: 0, // No extra space
-          fontSize:'22px'
+          cursor: getCookie('profile_liked') ? 'not-allowed' : 'pointer',
+          transition: 'transform 0.3s ease',
+          transform: isLiked ? 'scale(1.2)' : 'scale(1)',
+          display: 'inline',
+          padding: 0,
+          fontSize: '22px',
+          opacity: getCookie('profile_liked') ? 0.6 : 1,
         }}
+        disabled={!!getCookie('profile_liked')}
+        title={getCookie('profile_liked') ? 'You already liked this' : 'Like'}
       >
-          ❤️ 
+        ❤️
       </button>
       {likeCount}
     </span>

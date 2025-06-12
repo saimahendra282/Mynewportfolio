@@ -353,7 +353,7 @@ const degrees = {
       subtitle: "B.Tech. in Computer Engineering",
       logo_path: "iiitk_logo.png",
       alt_name: "KLEF Vaddeswaram",
-      duration: "2020 - 2025",
+      duration: "2022 - 2026",
       descriptions: [
         " Pursuing 3rd-year B.Tech in Computer Science at KLEF, Vaddeswaram.",
         " Current academic CGPA: 9.49.",
@@ -451,6 +451,15 @@ const certifications = {
         "https://www.cloudskillsboost.google/public_profiles/eda19f1e-af0a-4429-8290-106fc7351e60/badges/10165065",
       alt_name: "Skill Boost",
       color_code: "#ffffff",
+    },
+        {
+title:"Associate Cloud Engineer Certification",
+subtitle: "- Google Cloud",
+logo_path: "gcp_logo.png",
+certificate_link:
+"https://www.credly.com/badges/874648b5-2dae-48c5-96b7-757c03169f6d/public_url",
+alt_name: "Google Cloud",
+color_code: "#ffffff",
     },
   ],
 };
@@ -662,7 +671,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "image.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with  AI, React,  Cloud and Opensource Development.",
+      "Got an idea or want to connect? I'm just a message away! Reach out to me on any of my social platforms — I usually reply within 5 minutes. Let's make something great happen!",
   },
   blogSection: {
     title: "Blogs",
@@ -680,7 +689,7 @@ const contactPageData = {
     postalCode: "523226",
     streetAddress: "selam vari bazar",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/UPSLLdm93q46hBib6",
+    location_map_link: "https://maps.app.goo.gl/ZNXBwE7F9J5xnhq47",
   },
   phoneSection: {
     title: "",
