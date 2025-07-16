@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Looking for opportunities in cloud computing, full-stack development, and prompt engineering. Good at using cloud Platform, building web apps, and creating AI prompts.",
   resumeLink:
-    "https://drive.google.com/file/d/1sEiIjFg-a3qbml0X8fSVMPQUu4CavPbY/view?usp=drive_link",
+    "https://drive.google.com/file/d/1NbAM_obWX7FKbnFih0NwfB46j2SUF8Yy/view?usp=sharing",
   portfolio_repository: "https://github.com/saimahendra282/Mynewportfolio.git",
   whatsappLink: "https://api.whatsapp.com/send?phone=919676541304",
   githubProfile: "https://github.com/saimahendra282",
@@ -466,160 +466,119 @@ color_code: "#ffffff",
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  title: "Achievements",
+  subtitle: "Hackathons, Challenges and Compititions",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked on various projects and collaborated with talented people to create digital products for both business and consumer use.",
   header_image_path: "experience.svg",
   sections: [
+   {
+  title: "Events",
+  work: true,
+  experiences: [
     {
-      title: "Work",
-      work: true,
-      experiences: [
-        {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
-          description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
-          color: "#000000",
-        },
-        {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
-      ],
+      title: "JPMC Code for Good 2025",
+      company: "Jp Morgan Chase",
+      company_url: "https://www.linkedin.com/posts/bejawada-sai-mahendra-b18289212_codeforgood-codeforgood-jpmorganchase-activity-7346077236472516609-PJ2S?utm_source=share&utm_medium=member_desktop&rcm=ACoAADXKQwQBs9a1qPRyPJ2PgDzhyfVWvVNbjFM",
+      logo_path: "jpmorganchase_logo.jpg",
+      duration: "June 2025",
+      location: "JP Morgan towers, Hyderabad, Telangana",
+      description:
+        "Participated in JPMorgan Chase’s Code for Good 2025, collaborating with a 7-member team to develop a real-world solution for PRADAN, aimed at digitizing agricultural data and supporting rural women farmers, Contributed to backend development and system integration, implementing key features such as plant disease detection using ML, automated carbon credit tracking, and localized crop prediction.",
+      color: "#000000",
+    },
+     {
+      title: "University Hackathon (Springboot)",
+      company: "KLEF",
+      company_url: "https://www.linkedin.com/posts/bejawada-sai-mahendra-b18289212_y22jfsd36-springboot-orm-activity-7246565730278637569-7wOK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADXKQwQBs9a1qPRyPJ2PgDzhyfVWvVNbjFM",
+      logo_path: "iiitk_logo.png",
+      duration: "Oct 2024",
+      location: "Klef, Vaddeswaram, Guntur",
+      description:
+        "Led a team of 3 and deployed a full-stack certification tracking system using Spring Boot microservices. I built and integrated two services — one for user management (MySQL) and another for certifications (MongoDB) — with automated expiry alerts and secure role-based access.",
+      color: "#0879bf",
+    },
+  
+    {
+      title: "University Hackathon (Redhat Enterprise Learning)",
+      company: "KLEF",
+      company_url: "https://www.linkedin.com/posts/bejawada-sai-mahendra-b18289212_hello-everyone-i-am-happy-to-announce-that-activity-7225162291594321922-3Xkn?utm_source=share&utm_medium=member_desktop&rcm=ACoAADXKQwQBs9a1qPRyPJ2PgDzhyfVWvVNbjFM",
+      logo_path: "iiitk_logo.png",
+      duration: "Aug 2024",
+      location: "Klef, Vaddeswaram, Guntur",
+      description:
+        "Led the development of a Stock Management System during an EP course hackathon; implemented event logging, receipt generation, product visualization using Chart.js, and deployed feedback handling.",
+      color: "#0879bf",
+    },
+     {
+      title: "University Hackathon (Django)",
+      company: "KLEF",
+      company_url: "https://www.linkedin.com/posts/gella-abhi-ram_sdp-skill-learning-ugcPost-7159231828204089344-6pTH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADXKQwQBs9a1qPRyPJ2PgDzhyfVWvVNbjFM",
+      logo_path: "iiitk_logo.png",
+      duration: "Feb 2024",
+      location: "Klef, Vaddeswaram, Guntur",
+      description:
+        "Led a team in developing and deploying a Student Learning Management Portal with features like course management, communication tools, and grading; built and integrated the backend systems.",
+      color: "#0879bf",
     },
     {
-      title: "Internships",
+      title: "University Hackathon (MERN)",
+      company: "KLEF",
+      company_url: "https://www.linkedin.com/posts/bejawada-sai-mahendra-b18289212_im-excited-to-share-our-article-about-our-activity-7102342073021845504-LwwB?utm_source=share&utm_medium=member_desktop&rcm=ACoAADXKQwQBs9a1qPRyPJ2PgDzhyfVWvVNbjFM",
+      logo_path: "iiitk_logo.png",
+      duration: "Aug 2023",
+      location: "Klef, Vaddeswaram, Guntur",
+      description:
+        "Collaborated and led a team of 3 to build a full-stack web app for an airline management system. I developed the backend features, including OTP verification, flight scheduling, and API integration.",
+      color: "#0879bf",
+    },
+  ],
+},
+
+    {
+      title: "Compititions & Challenges",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
+          title: "University DSA Codeathon",
+          company: "KLEF",
+          company_url: "https://www.linkedin.com/in/bejawada-sai-mahendra-b18289212/details/honors/",
+          logo_path: "iiitk_logo.png",
+          duration: "Jan 2025",
+          location: "Klef, Vaddeswaram, Guntur",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-          color: "#000000",
+            "Secured a top 15 position in a DSA competition held at KLEF, Vaddeswaram, demonstrating strong problem-solving skills and algorithmic thinking.",
+          color: "#4285F4",
         },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+        
+      ],
+    },
+      {
+      title: " Virtual Internships",
+      experiences: [
+         {
+          title: "AI-ML Virtual Internship",
+          company: "EduSkills Foundation",
+          company_url: "https://www.linkedin.com/in/bejawada-sai-mahendra-b18289212/details/experience/",
+          logo_path: "eduskills.jpg",
+          duration: "Apr 2024 - Jun 2024",
+          location: "Remote",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+            "In this internship, I engaged in a series of tasks aimed at building my foundational knowledge in AI and machine learning. I accessed the Google Developers account and earned several badges by completing courses primarily focused on Android Studio and the fundamentals of AI/ML. This experience allowed me to explore the intersection of mobile app development and artificial intelligence.",
           color: "#ee3c26",
         },
         {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
+          title: "Data Science Master Virtual Internship",
+          company: "EduSkills Foundation",
+          company_url: "https://www.linkedin.com/in/bejawada-sai-mahendra-b18289212/details/experience/",
+          logo_path: "eduskills.jpg",
+          duration: "July 2024 - Sept 2024",
+          location: "Remote",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
-      ],
-    },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
+            "During this internship, I focused on enhancing my skills in data analysis and data science. I completed six certification courses that covered essential topics such as data visualization, statistical analysis, and data manipulation techniques. This experience deepened my understanding of data science concepts and prepared me to handle real-world data challenges.",
           color: "#000000",
         },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
+       
+       
       ],
     },
   ],
@@ -629,7 +588,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 

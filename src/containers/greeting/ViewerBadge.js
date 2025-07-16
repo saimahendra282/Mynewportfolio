@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { supabase } from './supersuper.js';
 
-const setCookie = (name, value, days = 1) => {
+const setCookie = (name, value, days = 7) => {
   const expires = new Date(Date.now() + days * 864e5).toUTCString();
   document.cookie = `${name}=${value}; expires=${expires}; path=/`;
 };

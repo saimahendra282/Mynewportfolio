@@ -179,6 +179,7 @@ class Experience extends Component {
                 >
                   {experience["description"]}
                 </p>
+            
               </div>
             </div>
           </Fade>
