@@ -27,7 +27,7 @@ const greeting = {
   resumeLink:
     "https://drive.google.com/file/d/1tZuaSjcdXapw64t-1K6FGdmuvGP_-JM5/view?usp=sharing",
   portfolio_repository: "https://github.com/saimahendra282/Mynewportfolio.git",
-  whatsappLink: "https://api.whatsapp.com/send?phone=919676541304",
+  whatsappLink: "mailto:2200030548cseh@gmail.com?subject=Regarding%20portfolio&body=Hello%20Sai%2C%20I%20have%20seen%20your%20portfolio%20and%20I%20want%20to%20talk%20about%20%5Bmention%20your%20info%20here%5D..",
   githubProfile: "https://github.com/saimahendra282",
 };
 
