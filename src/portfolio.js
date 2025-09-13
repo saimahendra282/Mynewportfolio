@@ -11,9 +11,9 @@ const seo = {
   description:
     "This is Sai Mahendra Bejawada's portfolio website. He enjoys working on unique ideas and open-source projects, turning imagination into reality. ",
   og: {
-    title: "BejawadaSai Mahendra Portfolio",
+    title: "Bejawada Sai Mahendra Portfolio",
     type: "website",
-    url: "https://bejawadasaimahendra.netlify.app",
+    url: "https://bejawadasaimahendra.vercel.app",
   },
 };
 
