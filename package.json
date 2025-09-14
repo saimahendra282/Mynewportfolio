@@ -1,11 +1,12 @@
 {
   "private": true,
-  "name": "masterPortfolio",
+  "name": "saimahendra-portfolio",
   "version": "0.1.0",
   "homepage": ".",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
+    "sai": "react-scripts start",
     "deploy": "gh-pages -b gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts --openssl-legacy-provider start",
