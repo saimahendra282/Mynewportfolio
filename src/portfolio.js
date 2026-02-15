@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Looking for opportunities in cloud computing, full-stack development, and prompt engineering. Good at using cloud Platform, building web apps, and creating AI prompts.",
   resumeLink:
-    "https://drive.google.com/file/d/1M_Ja6EfrXRj72i8tCaJhs3SfWOZ5WP5R/view?usp=sharing",
+    "https://drive.google.com/file/d/1sAOy_wdXFyrv7MgP_S9PhiiHRosCloBj/view?usp=sharing",
   portfolio_repository: "https://github.com/saimahendra282/Mynewportfolio.git",
   whatsappLink: "mailto:bejawadasaimahendra@gmail.com?subject=Regarding%20portfolio&body=Hello%20Sai%2C%20I%20have%20seen%20your%20portfolio%20and%20I%20want%20to%20talk%20about%20%5Bmention%20your%20info%20here%5D..",
   githubProfile: "https://github.com/saimahendra282",
