@@ -25,9 +25,9 @@ const greeting = {
   subTitle:
     "Looking for opportunities in cloud computing, full-stack development, and prompt engineering. Good at using cloud Platform, building web apps, and creating AI prompts.",
   resumeLink:
-    "https://drive.google.com/file/d/1tZuaSjcdXapw64t-1K6FGdmuvGP_-JM5/view?usp=sharing",
+    "https://drive.google.com/file/d/1M_Ja6EfrXRj72i8tCaJhs3SfWOZ5WP5R/view?usp=sharing",
   portfolio_repository: "https://github.com/saimahendra282/Mynewportfolio.git",
-  whatsappLink: "mailto:2200030548cseh@gmail.com?subject=Regarding%20portfolio&body=Hello%20Sai%2C%20I%20have%20seen%20your%20portfolio%20and%20I%20want%20to%20talk%20about%20%5Bmention%20your%20info%20here%5D..",
+  whatsappLink: "mailto:bejawadasaimahendra@gmail.com?subject=Regarding%20portfolio&body=Hello%20Sai%2C%20I%20have%20seen%20your%20portfolio%20and%20I%20want%20to%20talk%20about%20%5Bmention%20your%20info%20here%5D..",
   githubProfile: "https://github.com/saimahendra282",
 };
 
@@ -52,7 +52,7 @@ const socialMediaLinks = [
   // },
   {
     name: "Gmail",
-    link: "mailto:2200030548cseh@gmail.com",
+    link: "mailto:bejawadasaimahendra@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
