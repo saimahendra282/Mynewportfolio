@@ -80,28 +80,36 @@ const ViewerBadge = () => {
   };
 
   return (
-    <span style={{ fontSize: '22px' }}>
-      👁 {viewCount}{' '}
-      <button
-        onClick={handleLike}
-        style={{
-          border: 'none',
-          background: 'none',
-          cursor: getCookie('profile_liked') ? 'not-allowed' : 'pointer',
-          transition: 'transform 0.3s ease',
-          transform: isLiked ? 'scale(1.2)' : 'scale(1)',
-          display: 'inline',
-          padding: 0,
-          fontSize: '22px',
-          opacity: getCookie('profile_liked') ? 0.6 : 1,
-        }}
-        disabled={!!getCookie('profile_liked')}
-        title={getCookie('profile_liked') ? 'You already liked this' : 'Like'}
-      >
-        ❤️
-      </button>
-      {likeCount}
+  <span style={{ fontSize: '22px' }}>
+  <span role="img" aria-label="views">
+    👁
+  </span>{" "}
+  {viewCount}{" "}
+  
+  <button
+    onClick={handleLike}
+    style={{
+      border: "none",
+      background: "none",
+      cursor: getCookie("profile_liked") ? "not-allowed" : "pointer",
+      transition: "transform 0.3s ease",
+      transform: isLiked ? "scale(1.2)" : "scale(1)",
+      display: "inline",
+      padding: 0,
+      fontSize: "22px",
+      opacity: getCookie("profile_liked") ? 0.6 : 1
+    }}
+    disabled={!!getCookie("profile_liked")}
+    title={getCookie("profile_liked") ? "You already liked this" : "Like"}
+  >
+    <span role="img" aria-label="like">
+      ❤️
     </span>
+  </button>
+  
+  {likeCount}
+</span>
+
   );
 };
 
