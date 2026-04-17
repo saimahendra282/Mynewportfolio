@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "SaiMahendra",
   nickname: "sunny",
   subTitle:
-    "Looking for opportunities in cloud computing, full-stack development, and prompt engineering. Good at using cloud Platform, building web apps, and creating AI prompts.",
+    "Looking for opportunities in cloud computing, DevOps, full-stack development, and prompt engineering. Skilled in infrastructure management, web application development, and creating AI prompts.",
   resumeLink:
     "https://drive.google.com/file/d/1sAOy_wdXFyrv7MgP_S9PhiiHRosCloBj/view?usp=sharing",
   portfolio_repository: "https://github.com/saimahendra282/Mynewportfolio.git",
@@ -69,96 +69,84 @@ const socialMediaLinks = [
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=facebook
   },
   {
-    name: "Instagram",
-    link: "https://www.instagram.com/sai_mahendra_bejawada/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    name: "Salesforce Trailhead",
+    link: "https://www.salesforce.com/trailblazer/saimahendra30548",
+    fontAwesomeIcon: "fa-salesforce", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#00A1E0", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
 const skills = {
-  data: [
+  data: [ 
     {
-      title: "Generative AI & AI Prompting",
-      fileName: "DataScienceImg",
+      title: "Cloud Infra-Architecture",
+      fileName: "CloudInfraImg",
       skills: [
-        "⚡ Developing generative ai models for daily life automations.",
-        "⚡ Learning Agentic AI",
+        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "⚡ Deploying full stack web-apps on cloud platforms",
+        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
         {
-          skillName: "Api Integration",
-          imageSrc: "apiinegration.png",
+          skillName: "GCP",
+          fontAwesomeClassname: "simple-icons:googlecloud",
           style: {
-            width: "50px",
-            hieght: "50px",
-            // color: "#D00000",
-          },
-        },
-        // {
-        //   skillName: "Keras",
-        //   fontAwesomeClassname: "simple-icons:keras",
-        //   style: {
-        //     backgroundColor: "white",
-        //     color: "#D00000",
-        //   },
-        // },
-        // {
-        //   skillName: "PyTorch",
-        //   fontAwesomeClassname: "logos-pytorch",
-        //   style: {
-        //     backgroundColor: "transparent",
-        //   },
-        // },
-        {
-          skillName: "AI Prompting",
-          imageSrc: "aiprompting.png",
-          style: {
-            width: "50px",
-            hieght: "50px",
-            // color: "#D00000",
+            color: "#4285F4",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
+            color: "#FF9900",
           },
         },
 
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
           style: {
-            color: "#E34F26",
+            color: "#FFCA28",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Netlify",
+          fontAwesomeClassname: "simple-icons:netlify",
           style: {
-            color: "#1572B6",
+            color: "#47A248",
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
           style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "MySql",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#1488C6",
           },
         },
       ],
-    },
-    {
+    }, 
+  {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "👩🏻‍💻 Building responsive website front end using React",
-        "⚡ Well for backend i usually prefer microservices architecture, where i use suitable language(java,python,go lang) for suitable services.",
-        "🔥 For Database i am currently using nosql DBs like firebase , mongodb and aws service , as we have deal with lot of data, but i am familiar with mysql too.",
+        "⚡ Building responsive website front ends using React",
+        "⚡Familiar with and able to build backend services using JavaScript frameworks, as well as FastAPI and Spring Boot",
+        "🔥For databases, I mainly use MongoDB, MySQL, and AWS cloud services, including DynamoDB",
       ],
       softwareSkills: [
         {
@@ -227,68 +215,83 @@ const skills = {
         },
       ],
     },
+    
     {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
+      title: "Generative AI & AI Prompting",
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying full stack web-apps on cloud platforms",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
+  "⚡ Can rapidly deliver scalable full-stack solutions or mobile applications using GenAI",
+  "⚡ Currently learning Agentic AI",
+  "⚡ Can write effective prompts to get better responses",
+],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Api Integration",
+          imageSrc: "apiinegration.png",
           style: {
-            color: "#4285F4",
+            width: "50px",
+            hieght: "50px",
+            // color: "#D00000",
+          },
+        },
+        // {
+        //   skillName: "Keras",
+        //   fontAwesomeClassname: "simple-icons:keras",
+        //   style: {
+        //     backgroundColor: "white",
+        //     color: "#D00000",
+        //   },
+        // },
+        // {
+        //   skillName: "PyTorch",
+        //   fontAwesomeClassname: "logos-pytorch",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //   },
+        // },
+        {
+          skillName: "AI Prompting",
+          imageSrc: "aiprompting.png",
+          style: {
+            width: "50px",
+            hieght: "50px",
+            // color: "#D00000",
           },
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
           style: {
-            color: "#FF9900",
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
 
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
           style: {
-            color: "#FFCA28",
+            color: "#E34F26",
           },
         },
         {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
           style: {
-            color: "#47A248",
+            color: "#1572B6",
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
           style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "MySql",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#1488C6",
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
           },
         },
       ],
-    }, 
+    } 
+
    ],
 };
 
@@ -389,21 +392,12 @@ const certifications = {
       color_code: "#ffffff",
     },
     {
-      title: "Salesforce Certified AI Associate",
+      title: "  Salesforce Certified Agentforce Specialist",
       subtitle: "- Salesforce",
-      logo_path: "salesforceasso.png",
+      logo_path: "salesforceb.png",
       certificate_link:
-        "https://drive.google.com/file/d/17eBNCBNLDybCPDyBH5xd1bGaJ0NEviP2/view?usp=drive_link",
-      alt_name: "Sales Force",
-      color_code: "#ffffff",
-    },
-    {
-      title: "Salesforce Certified AI Specialist",
-      subtitle: "- Salesforce",
-      logo_path: "salesforcespec.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1XD7j-W7OZzeB7JYOjkWh3DRiWmYvwnrW/view?usp=drive_link",
-      alt_name: "Sales Force",
+        "https://www.salesforce.com/trailblazer/saimahendra30548",
+      alt_name: "Salesf orce",
       color_code: "#ffffff",
     },
     {
@@ -423,6 +417,15 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1-kkvt00B8iGokpaMQ_ZcRwILxvzYEs7o/view?usp=drive_link",
       alt_name: "Automation Anywhere",
+      color_code: "#ffffff",
+    },
+    {
+      title: "Oracle Cloud Infrastructure Certified Architect Associate",
+      subtitle: "- Oracle Cloud",
+      logo_path: "oracle.png",
+      certificate_link:
+        "https://catalog-education.oracle.com/ords/certview/sharebadge?id=818DE951C3A8086DC4D7ACD9E2D6C442B04B710DE5763FEEE16602E66F9D90D8",
+      alt_name: "Oracle Cloud",
       color_code: "#ffffff",
     },
     {
@@ -549,7 +552,17 @@ const experience = {
             "Secured a top 15 position in a DSA competition held at KLEF, Vaddeswaram, demonstrating strong problem-solving skills and algorithmic thinking.",
           color: "#4285F4",
         },
-        
+        {
+          title: "Celebal Databrick Hackathon",
+          company: "Celebal Technologies",
+          company_url: "https://www.linkedin.com/in/bejawada-sai-mahendra-b18289212/details/honors/",
+          logo_path: "celeb.png",
+          duration: "Mar 2026",
+          location: "Online",
+          description:
+            "Advanced to Top 35 out of 17,000 participants in Celebal Databricks Hackathon, built a real-time Energy Grid Analytics Lakehouse pipeline using PySpark with CDC, SCD Type 2, and 66 metrics across Bronze–Silver–Gold layers.",
+          color: "#4285F4",
+        }
       ],
     },
       {
